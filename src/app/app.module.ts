@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { BasicHighlightDirective } from './highlight/basic.highlight.directive';
+import { RendererDirective } from './highlight/renderer.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasicHighlightDirective,
+    RendererDirective
   ],
   imports: [
     BrowserModule,
